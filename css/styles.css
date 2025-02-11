@@ -298,10 +298,6 @@ a {
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-/*
-.team-member-photo {
-}*/
-
 .team-member-role {
   font-size: 16px;
   line-height: 1.5;
@@ -439,6 +435,7 @@ a {
   font-family: "Raleway", sans-serif;
   display: inline-block;
   margin-bottom: 16px;
+  margin-right: 20px;
 }
 
 .logo-accent-footer {
@@ -505,11 +502,8 @@ a {
 }
 
 .footer-container {
-  margin-right: 120px;
-}
-
-.container {
-  margin-right: 120px;
+  display: flex;
+  align-items: baseline;
 }
 
 .footer-promo {
